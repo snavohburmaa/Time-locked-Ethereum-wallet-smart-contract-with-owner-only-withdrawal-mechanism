@@ -1,0 +1,9 @@
+Notes for Hatdhat
+-------------------
+npm init
+npm install --save-dev hardhat
+npx hardhat --init
+npm install --save-dev @nomicfoundation/hardhat-toolbox-mocha-ethers
+
+npx hardhat node => Accounts & PrivateKeys
+npx hardhat run scripts/deploy.js --network localhost
